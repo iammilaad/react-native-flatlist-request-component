@@ -3,11 +3,11 @@
 ## how to use
 
 ### constants.js
-```
+```js
 export const API_URL = "yourExampleUrl/test/";
 ```
 ### index.js || or componentViewName
-```
+```js
 import React, {Component, Fragment} from "react";
 import * as constants from "./constants";
 import {createDynamicFlatList} from "components/dynamicFlatlist";
@@ -35,3 +35,4 @@ export default class Following extends Component {
 
 ```
  ### this just an example, you can improve this tips :)
+ in this example i using apisauce to handle request and you can set url with queries.
